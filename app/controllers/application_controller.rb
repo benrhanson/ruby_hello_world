@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def hello
     render text: "I AM THE LIZARD QUEEN!"
   end
+  
+  def monkey
+    render text: "OOK! MY NAME IS ZINGO, I AM A MONKEY!"
+  end
 end
